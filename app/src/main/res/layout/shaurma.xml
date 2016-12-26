@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+            android:id="@+id/imageView"
+
+            android:src="@drawable/sh_pork" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork140" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView2"
+            android:src="@drawable/sh_pork_mini" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork_mini100" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView3"
+            android:src="@drawable/sh_hen" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen120" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView4"
+            android:src="@drawable/sh_hen_mini" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_mini80" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView5"
+            android:src="@drawable/sh_pork_fri" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork_fri160" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView6"
+            android:src="@drawable/sh_hen_fri" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_fri140" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView7"
+            android:src="@drawable/sh_pork_vip" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork_vip200" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView8"
+            android:src="@drawable/sh_hen_vip" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_vip180" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView9"
+            android:src="@drawable/sh_hen_zhul" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_zhul200" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView10"
+            android:src="@drawable/sh_pork_cheese" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork_cheese160" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView11"
+            android:src="@drawable/sh_hen_cheese" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_cheese140" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView12"
+            android:src="@drawable/sh_vegetarian" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_vegetarian60" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView43"
+            android:src="@drawable/sh_govyad_lep" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_govyad_lep170" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView44"
+            android:src="@drawable/sh_pork_lep" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_pork_lep150" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView45"
+            android:src="@drawable/sh_hen_lep" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShaurma"
+            android:id="@+id/sh_hen_lep130" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/go_to_zakaz"
+            android:onClick="zakaz"
+            android:id="@+id/zakaz_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TaSamayaShaurma</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_tasamaya">Заказать продукты!</string>
+    <string name="zakaz">Готовы сделать заказ?</string>
+    <string name="entry_name">Введите Ваше имя и фамилию</string>
+    <string name="entry_phone">Введите номер телефона</string>
+    <string name="entry_address">Введите адреас доставки</string>
+    <string name="entry_sugg">Ваши пожелания к заказу (добавить/убрать ингридиенты)</string>
+    <string name="entry_products">Введите продукт (Шаурма, бургер, пицца или напиток):</string>
+    <string name="hint_auto_complete"></string>
+    <string name="time_edit_text_hint">здесь будет время..</string>
+    <string name="date_edit_text_hint">здесь будет дата..</string>
+    <string name="btn_time_text">Время</string>
+    <string name="btn_date_text">Дата</string>
+    <string name="send_zakaz">Отправить заказ!</string>
+    <string name="add_to_order">Добавить в заказ!</string>
+    <string name="shaurma">Шаурма</string>
+    <string name="shashlyk">Шашлык</string>
+    <string name="lulya_kebab">Люля-Кебаб</string>
+    <string name="pizza">Пицца</string>
+    <string name="burger">Бургеры</string>
+    <string name="other_food">Другая еда</string>
+    <string name="go_to_zakaz">Перейти к заказу</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отменить заказ</string>
+    <string name="productPrice" formatted="false"> %s рублей</string>
+</resources>

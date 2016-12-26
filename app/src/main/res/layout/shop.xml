@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/display_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.60"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_name"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_phone"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_address"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:layout_weight="0.10" />
+
+        <EditText
+            android:id="@+id/sugg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_sugg"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:layout_weight="0.99" />
+
+        <EditText
+            android:id="@+id/picked_date"
+            android:hint="@string/date_edit_text_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btn_date"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="@string/btn_date_text"
+            android:layout_above="@+id/picked_time"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/picked_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/time_edit_text_hint"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/picked_date"
+            android:layout_toLeftOf="@+id/btn_date"
+            android:layout_toStartOf="@+id/btn_date"
+            android:inputType="time"/>
+
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignLeft="@+id/btn_date"
+            android:layout_alignStart="@+id/btn_date"
+            android:layout_below="@+id/btn_date"
+            android:text="@string/btn_time_text"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/send_zakaz"
+            android:id="@+id/send"
+            android:onClick="onSendClicked"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/cancel"
+            android:id="@+id/cancel_action"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+</ScrollView>

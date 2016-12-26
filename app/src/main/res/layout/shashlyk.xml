@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView13"
+            android:src="@drawable/shash_pork" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShashlyk"
+            android:id="@+id/shash_pork100" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView14"
+            android:src="@drawable/shash_hen" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShashlyk"
+            android:id="@+id/shash_hen80" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView22"
+            android:src="@drawable/shash_pork_kr" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShashlyk"
+            android:id="@+id/shash_pork_kr80" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView23"
+            android:src="@drawable/shash_pork_gol" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickShashlyk"
+            android:id="@+id/shash_pork_gol80" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/go_to_zakaz"
+            android:onClick="zakaz"
+            android:id="@+id/zakaz_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView27"
+            android:src="@drawable/hachapur" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickOther"
+            android:id="@+id/hachapur230" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView24"
+            android:src="@drawable/cheese_na_mangale" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickOther"
+            android:id="@+id/cheese_na_mangale100" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView17"
+            android:src="@drawable/hot_dog" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickOther"
+            android:id="@+id/hot_dog60" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView18"
+            android:src="@drawable/potato_skewer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickOther"
+            android:id="@+id/potato_skewer100" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView19"
+            android:src="@drawable/mushrooms_skewer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickOther"
+            android:id="@+id/mushrooms_skewer150" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/go_to_zakaz"
+            android:onClick="zakaz"
+            android:id="@+id/zakaz_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

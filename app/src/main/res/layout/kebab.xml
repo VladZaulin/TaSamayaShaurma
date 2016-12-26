@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView15"
+            android:src="@drawable/lulya_govyad" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickKebab"
+            android:id="@+id/lulya_govyad150" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView16"
+            android:src="@drawable/lulya_hen" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickKebab"
+            android:id="@+id/lulya_hen120" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView20"
+            android:src="@drawable/lulya_hen_cheese" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickKebab"
+            android:id="@+id/lulya_hen_cheese150" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView21"
+            android:src="@drawable/lulya_hen_mushrooms" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickKebab"
+            android:id="@+id/lulya_hen_mushrooms150" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/go_to_zakaz"
+            android:onClick="zakaz"
+            android:id="@+id/zakaz_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+</ScrollView>

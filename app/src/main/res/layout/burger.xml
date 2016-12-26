@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView39"
+            android:src="@drawable/chiken_burger" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickBurger"
+            android:id="@+id/chiken_burger120" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView40"
+            android:src="@drawable/chiken_burger_cheese" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickBurger"
+            android:id="@+id/chiken_burger_cheese130" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView41"
+            android:src="@drawable/gamburger" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickBurger"
+            android:id="@+id/gamburger140" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+
+            android:id="@+id/imageView42"
+            android:src="@drawable/gamburger_cheese" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/add_to_order"
+            android:onClick="onClickBurger"
+            android:id="@+id/gamburger_cheese150" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/go_to_zakaz"
+            android:onClick="zakaz"
+            android:id="@+id/zakaz_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="@string/back"
+            android:onClick="back"
+            android:id="@+id/back_button" />
+
+    </LinearLayout>
+
+</ScrollView>

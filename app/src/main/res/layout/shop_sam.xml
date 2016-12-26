@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shaurma"
+        android:id="@+id/shaurma"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shashlyk"
+        android:id="@+id/shashlyk"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lulya_kebab"
+        android:id="@+id/lulya_kebab"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pizza"
+        android:id="@+id/pizza"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/burger"
+        android:id="@+id/burger"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_food"
+        android:id="@+id/other_food"
+        android:onClick="onClick" />
+
+</LinearLayout>
