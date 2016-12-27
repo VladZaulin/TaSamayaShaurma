@@ -57,10 +57,10 @@ public class ShoppingList extends AppCompatActivity implements
 
             String product = extras.getString("Product");
            /* ArrayList<Intent> productList = new ArrayList<>(10);*/
-            for (int i = 0; i<extras.size(); i++){
+           
 
-                textView.setText(getResources().getString(R.string.productPrice, product));
-            }
+            textView.setText(getResources().getString(R.string.productPrice, product));
+            
 
 
 
